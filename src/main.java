@@ -74,15 +74,6 @@ public class main {
 
         }
 
-        numbers.stream().map( n ->{
-            if(!saltarMaxValue[0] && n.equals(maxValue) ){
-                saltarMaxValue[0] = true;
-            }else{
-                n++;
-            }
-            return null;
-        }).collect(Collectors.toList());
-
         return numbers;
     }
 
